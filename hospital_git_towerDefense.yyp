@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "2960b484-816a-44a8-b5b2-b532c5a99945",
+            "Value": {
+                "id": "0157d583-e6ef-4651-aa44-262fb7704548",
+                "resourcePath": "sprites\\sprite_healthBar\\sprite_healthBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29855e9f-1370-4dcc-9000-9bf19a864a08",
             "Value": {
                 "id": "8d520e1d-cc55-4ad8-835a-3d67dfdea69d",

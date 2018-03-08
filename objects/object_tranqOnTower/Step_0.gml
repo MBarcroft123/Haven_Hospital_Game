@@ -1,4 +1,5 @@
 // This code points the tranq dart in the direction of the closest enemy
+//JUST THE VISUAL STUFF OK
 closestObjVis = undefined;
 inRange = false;
 for (var i  = 0; i < instance_number(object0); i+= 1)

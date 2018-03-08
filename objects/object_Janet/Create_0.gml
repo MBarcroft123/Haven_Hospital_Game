@@ -2,3 +2,5 @@
 // You can write your code in this editor
 hp = 100;
 playerSpeed = 5;
+isWalking = false;
+isLayingDown = false;

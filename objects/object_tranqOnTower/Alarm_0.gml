@@ -24,13 +24,10 @@ if(closestObj == undefined){
 canShoot = false;	
 }
 if (canShoot){
-	tranq = instance_create_depth(x,y,-3,object_tranqProjectile);
+	tranq = instance_create_depth(x,y,100,object_tranqProjectile);
 	with(tranq){
 		physics_apply_force(x,y,(other.closestObj.x-x)*1000,(other.closestObj.y-y)*1000);
-		phy_rotation = -point_direction(x,y,other.closestObj.x,other.closestObj.y);
-		
+		phy_rotation = -point_direction(x,y,other.closestObj.x,other.closestObj.y);	
 	}
-//	tranq.direction = point_direction(x,y,closestObj.x,closestObj.y);
-
 }
 alarm_set(0,30);

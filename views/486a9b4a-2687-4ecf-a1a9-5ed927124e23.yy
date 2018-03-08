@@ -11,7 +11,8 @@
         "237698a6-5e2c-4474-bbf8-57a20f9329f2",
         "ef8e2bbf-54f4-4f8b-92cd-684e0d7cda25",
         "dcdbb3f1-355a-4bf7-b5ea-2191197d32cc",
-        "5d59128e-3823-4571-81a7-12e3f34fdde7"
+        "5d59128e-3823-4571-81a7-12e3f34fdde7",
+        "2960b484-816a-44a8-b5b2-b532c5a99945"
     ],
     "filterType": "GMSprite",
     "folderName": "UISprites",

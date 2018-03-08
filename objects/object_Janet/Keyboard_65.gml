@@ -3,3 +3,4 @@
 x -= playerSpeed;
 sprite_index = sprite_JanetWalk;
 image_xscale = -0.4375;
+isLayingDown = false;

@@ -19,6 +19,26 @@ else{
 if(place_free(x, y)){
 	playerSpeed = 5;
 	light_follow_Janet_Denis.janetCrawl = false;
+	if (keyboard_check(ord("A")) && keyboard_check(ord("W")) || keyboard_check(ord("A")) && keyboard_check(ord("S")))
+	{
+		playerSpeed = 3.5;
+	} 
+	else if ( keyboard_check(ord("D")) && keyboard_check(ord("W")) || keyboard_check(ord("D")) && keyboard_check(ord("S")))
+	{
+		playerSpeed = 3.5;
+	}
+	
+	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
+	{
+		//image_xscale = -0.4375; Extra line messing around with image scaling;
+		sprite_index = sprite_Janet;
+		playerSpeed = 0;	
+	}
+	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))
+	{
+		sprite_index = sprite_Janet;
+		playerSpeed = 0;
+	}
 }
 else {
 	playerSpeed = 3;
@@ -28,10 +48,30 @@ else {
 	else{
 	sprite_index = sprite_JanetCrawl;
 	}
-	
 	light_follow_Janet_Denis.janetCrawl = true;
+	if (keyboard_check(ord("A")) && keyboard_check(ord("W")) || keyboard_check(ord("A")) && keyboard_check(ord("S")))
+	{
+		playerSpeed = 2.1;
+	} 
+	else if ( keyboard_check(ord("D")) && keyboard_check(ord("W")) || keyboard_check(ord("D")) && keyboard_check(ord("S")))
+	{
+		playerSpeed = 2.1;
+	}
 	
+	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
+	{
+		//image_xscale = -0.4375;
+		sprite_index = sprite_Janet;
+		playerSpeed = 0;	
+	}
+	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))
+	{
+		//image_xscale = -0.4375;
+		sprite_index = sprite_Janet;
+		playerSpeed = 0;
+	}
 }
+
 if(place_meeting(x,y,object0)){
  hp -= 1;	
 }

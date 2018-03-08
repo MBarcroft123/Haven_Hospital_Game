@@ -3,8 +3,9 @@
 // It is a pain in the ass, but the way it works is it checks the current path
 // -path stepper, and then chooses randomly between the two. This is for Doctors,
 // I'll add in them being directed by light towers soon.
-// YOU MUST USE THE EXIT FUNTION FOR THIS TO WORK!!!
+// YOU MUST USE THE EXIT FUNCTION FOR THIS TO WORK!!!
 // if you don't exit, it will continue through the whole list and it will break
+//*A physical representation of the complete pathing can be viewed from room0*
 if(pathStepper == "start"){
 	pathStepper = choose("A","B");
 	if(pathStepper == "A"){
@@ -127,6 +128,13 @@ if(pathStepper == "J"){
 	path_start(pathJ2,2,path_action_stop,false);
 	exit;
 }
+
+if(pathStepper == "J2"){
+	pathStepper = "J3";
+	path_start(pathJ3,2,path_action_stop,false);
+	exit;
+}
+
 if(pathStepper == "K"){
 	pathStepper = choose("I2","L");
 	if(pathStepper == "I2"){
@@ -138,6 +146,14 @@ if(pathStepper == "K"){
 		exit;
 	}
 }
+
+if(pathStepper == "L"){
+	pathStepper = "L2";
+	path_start(pathL2,2,path_action_stop,false);
+	exit;
+}
+
+
 if(pathStepper == "K2"){
 	pathStepper = "M";
 	path_start(pathM,2,path_action_stop,false);
@@ -147,5 +163,11 @@ if(pathStepper == "K2"){
 if(pathStepper == "M"){
 	pathStepper = "M2";
 	path_start(pathM2,2,path_action_stop,false);
+	exit;
+}
+
+if(pathStepper == "M2"){
+	pathStepper = "M3";
+	path_start(pathM3,2,path_action_stop,false);
 	exit;
 }

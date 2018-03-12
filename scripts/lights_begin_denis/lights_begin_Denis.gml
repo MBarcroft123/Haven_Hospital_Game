@@ -5,19 +5,62 @@
 
 // lights begin script
 
-if(event_type == ev_draw) and (event_number == 0)
+if (room == room0)   // Now accounts for all rooms and their own instances of oLight (iLight, Ilight1, Ilight2)
 {
-	if(!surface_exists(iLight.light_surface))
+	if(event_type == ev_draw) and (event_number == 0)
 	{
-		iLight.light_surface = surface_create(1920,1080);
+		if(!surface_exists(iLight.light_surface))
+		{
+			iLight.light_surface = surface_create(1920,1080);
+		}
+	
+		//var cam = view_camera[view_current];
+	
+		surface_set_target(iLight.light_surface);
+	
+		//camera_apply(cam);
+	
+		draw_clear_alpha(c_black, 1.0);
+		gpu_set_blendmode(bm_add);
 	}
+}
+
+if (room == room1)
+{
+	if(event_type == ev_draw) and (event_number == 0)
+	{
+		if(!surface_exists(iLight1.light_surface))
+		{
+			iLight1.light_surface = surface_create(1920,1080);
+		}
 	
-	//var cam = view_camera[view_current];
+		//var cam = view_camera[view_current];
 	
-	surface_set_target(iLight.light_surface);
+		surface_set_target(iLight1.light_surface);
 	
-	//camera_apply(cam);
+		//camera_apply(cam);
 	
-	draw_clear_alpha(c_black, 1.0);
-	gpu_set_blendmode(bm_add);
+		draw_clear_alpha(c_black, 1.0);
+		gpu_set_blendmode(bm_add);
+	}
+}
+
+if (room == room2)
+{
+	if(event_type == ev_draw) and (event_number == 0)
+	{
+		if(!surface_exists(iLight2.light_surface))
+		{
+			iLight2.light_surface = surface_create(1920,1080);
+		}
+	
+		//var cam = view_camera[view_current];
+	
+		surface_set_target(iLight2.light_surface);
+	
+		//camera_apply(cam);
+	
+		draw_clear_alpha(c_black, 1.0);
+		gpu_set_blendmode(bm_add);
+	}
 }

@@ -8,6 +8,7 @@ if(buildModeisOn)
 		{
 			instance_create_depth(mouse_x,mouse_y,99,object_tower2);
 			buildModeisOn = false;
+			audio_play_sound(sound_summonObj,1,false);
 			
 			global.mana -= 50;
 			global.manaRegenerate = false;
@@ -20,6 +21,8 @@ if(buildModeisOn)
 		{
 			instance_create_depth(mouse_x,mouse_y,100,object_tableSummon);
 			buildModeisOn = false;
+			audio_play_sound(sound_summonObj,1,false);
+			
 			global.mana -= 10;
 			global.manaRegenerate = false;
 			object_ManaBar.alarm[0] = 5*room_speed;

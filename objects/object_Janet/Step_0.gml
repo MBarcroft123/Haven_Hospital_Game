@@ -73,7 +73,13 @@ else {
 }
 
 if(place_meeting(x,y,object0)){
- hp -= 1;	
+ global.roomHealth -= 1;	
+ if(canPlaySound){
+	audio_play_sound(sound_JanetHurt,1,false);
+	canPlaySound = false;
+	alarm_set(0,30);
+ }
+
 }
 if(hp == 0){
 room_goto(room_youLose);	

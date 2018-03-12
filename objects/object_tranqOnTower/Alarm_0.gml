@@ -25,6 +25,7 @@ canShoot = false;
 }
 if (canShoot){
 	tranq = instance_create_depth(x,y,100,object_tranqProjectile);
+	audio_play_sound(sound_projectileFire,1,false);
 	with(tranq){
 		physics_apply_force(x,y,(other.closestObj.x-x)*1000,(other.closestObj.y-y)*1000);
 		phy_rotation = -point_direction(x,y,other.closestObj.x,other.closestObj.y);	

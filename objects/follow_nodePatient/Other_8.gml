@@ -88,7 +88,7 @@ if(pathStepper == "J2"){
 	}
 }
 if(pathStepper == "K"){
-	if(inst_towerEnd.triggered == true){
+	if(inst_towerK.triggered == true){
 		path_start(pathL,1,path_action_stop,false);
 		pathStepper = "L";
 		exit;

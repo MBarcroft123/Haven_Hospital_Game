@@ -18,8 +18,12 @@ if (nearby_creeps >= 5)
 hp -=.1;
 instance_create_layer(x,y-100,"UI",object_damageAlert);
 }
-if (hp <=0){
-	
+if(hp <= 70 && hp >= 35){
+	heartLevel = 1;	
+} else if (hp < 35){
+	heartLevel = 0;	
+}
+if (hp <=0){	
 	with(self) instance_destroy();
-	global.roomHealth -=20;
+	//global.roomHealth -=20;
 }

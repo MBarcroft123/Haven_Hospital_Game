@@ -61,14 +61,13 @@ else {
 	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
 	{
 		//image_xscale = -0.4375;
-		sprite_index = sprite_JanetDeath;
-		image_index = 0;
+		sprite_index = sprite_JanetCrawlIdle;
 		playerSpeed = 0;	
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))
 	{
 		//image_xscale = -0.4375;
-		sprite_index = sprite_Janet;
+		sprite_index = sprite_JanetCrawlIdle;
 		playerSpeed = 0;
 	}
 }

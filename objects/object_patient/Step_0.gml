@@ -30,5 +30,6 @@ if(hp <= 70 && hp >= 35){
 }
 if (hp <=0){	
 	with(self) instance_destroy();
+	global.killedPatients +=1;
 	//global.roomHealth -=20;
 }

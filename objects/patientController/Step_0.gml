@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.mana += 10;
-with(self) instance_destroy();
-global.patientsSaved += 1;
+if(global.killedPatients > spawnCap/4){
+	room_goto(room_youLosePatientDeaths);
+}

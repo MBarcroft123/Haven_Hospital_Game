@@ -4,3 +4,5 @@ hp = 100;
 playerSpeed = 5;
 isWalking = false;
 isLayingDown = false;
+canPlaySound = true;
+isGettingHurt = false;

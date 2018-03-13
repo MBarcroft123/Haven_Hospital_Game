@@ -3,6 +3,7 @@ targetX = 0;
 targetY = 0;
 closestObjVis = undefined;
 inRange = false;
+sprite_index = sprite_doctorWalk;
 for (var i  = 0; i < instance_number(object_patient); i+= 1)
 {
 	if (distance_to_object(instance_find(object_patient,i))< 120){
@@ -25,6 +26,7 @@ targetY = closestObjVis.y;
 
 
 if(inRange == true){
+	sprite_index = sprite_doctorAttack;
 	//gets the direction of where the closest patient is
 var dir = point_direction(x, y, targetX, targetY);
 //calculates the speed based on distance from object, also taking into account a max speed (2 in this case)

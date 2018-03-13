@@ -17,7 +17,7 @@ if(
 	object_ManaBar.alarm[0] = 5*room_speed;
 	
 	triggered = true;
-	
+	audio_play_sound(sound_towerPowered,1,false);
 	for(i = 0;i < 15;i++)
 	{
 		inst = instance_create_layer(self.x, self.y-100, "moving_lights", light_controller_Denis);

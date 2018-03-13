@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Janet's walking and crawling checks
 // You can write your code in this editor
 if(keyboard_check(ord("A")) ||keyboard_check(ord("S")) || keyboard_check(ord("D")) || keyboard_check(ord("W"))){
 	isWalking = true;
@@ -61,7 +61,8 @@ else {
 	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
 	{
 		//image_xscale = -0.4375;
-		sprite_index = sprite_Janet;
+		sprite_index = sprite_JanetDeath;
+		image_index = 0;
 		playerSpeed = 0;	
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))
@@ -71,12 +72,28 @@ else {
 		playerSpeed = 0;
 	}
 }
-
+isGettingHurt = false;
 if(place_meeting(x,y,object0)){
- hp -= 1;	
+ global.roomHealth -= 1;
+	isGettingHurt = true;
+ if(canPlaySound){
+	audio_play_sound(sound_JanetHurt,1,false);
+	canPlaySound = false;
+	alarm_set(0,30);
+ }
+
 }
+
 if(hp == 0){
-room_goto(room_youLose);	
+	sprite_index = sprite_JanetDeath;
+	image_index = 0;
+	playerSpeed = 0;
+	//if (sprite_index == sprite_JanetDeath && sprite_JanetDeath.image_index == 33)
+	//{
+		//room_goto(room_youLose);
+	//}
+	exit;
+	
 }
 
 

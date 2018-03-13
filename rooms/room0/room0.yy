@@ -89,7 +89,8 @@
         "e91ca1b2-46a7-4a87-9474-2cf06180ba17",
         "b61af838-b13c-4923-b591-5f3e4ad65efc",
         "77c1a3c8-51b9-4c2c-8e44-218c8d70ea20",
-        "c4f12f51-fe4f-4481-adc2-eb5f5c6d0b17"
+        "c4f12f51-fe4f-4481-adc2-eb5f5c6d0b17",
+        "d0705aa8-5bcb-4a75-a24a-becb5f998077"
     ],
     "IsDnD": false,
     "layers": [
@@ -107,7 +108,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_161E6DD","id": "041719b3-5927-45da-ac22-92b2b515bfc5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_161E6DD","objId": "69580877-8cbf-452f-b9a3-98d67f2936fb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 672}
+{"name": "inst_161E6DD","id": "041719b3-5927-45da-ac22-92b2b515bfc5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_161E6DD","objId": "69580877-8cbf-452f-b9a3-98d67f2936fb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 672},
+{"name": "inst_30CC43A9","id": "d0705aa8-5bcb-4a75-a24a-becb5f998077","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_30CC43A9","objId": "d33f36ac-88db-42a8-9931-30d4f43778e0","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 32}
             ],
             "layers": [
 
@@ -127,7 +129,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -145,7 +147,7 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": true,
-            "visible": false
+            "visible": true
         },
         {
             "name": "PathSet1",

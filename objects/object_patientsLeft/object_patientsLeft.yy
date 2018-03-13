@@ -5,7 +5,7 @@
     "name": "object_patientsLeft",
     "eventList": [
         {
-            "id": "6f6a841f-178d-40df-80fb-b89ae40600e7",
+            "id": "fa30164f-4345-4368-b8d8-e4f66f1a1ed5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "d33f36ac-88db-42a8-9931-30d4f43778e0"
         },
         {
-            "id": "886e0f6e-a145-4c70-b254-c1bdf5d20fc1",
+            "id": "10ea3b41-cfd0-49e7-be4a-17f5690314b2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "61a79c5f-7474-46c9-80d2-c835e9cefb12",
+    "spriteId": "4acc4bdf-e3d5-46bb-a3a9-7e820cb5034f",
     "visible": true
 }

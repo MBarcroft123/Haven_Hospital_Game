@@ -30,7 +30,16 @@
         "ce39367b-d251-4b61-8f18-b5bae38606bc",
         "d2f65f47-acd7-4ae5-9550-540bca0eabe4",
         "f5a4349a-6d4d-49b8-adf3-d894046f7648",
-        "79992da3-cfc6-4e2b-a5b1-a854a9109232"
+        "79992da3-cfc6-4e2b-a5b1-a854a9109232",
+        "40d0a37e-6cfa-4c9d-8978-6ce99611092a",
+        "1b3a2af8-6acb-4b8c-8157-d2bb10700500",
+        "27c2ee0b-6006-4764-a0fc-5d2595c8be35",
+        "18e9957a-8523-40fb-8e04-35a42d4ebe3a",
+        "19aa9a20-0f5d-46dd-b8c2-c0fff3ab4feb",
+        "e44bc002-d8cd-4f15-b94b-4afdb80c8638",
+        "ba50dbf4-9f82-4778-94ea-ae45c82e8678",
+        "e9750fa5-b33a-4e1f-82e0-dbb10ac76061",
+        "fd3f9aae-a077-4fd7-8e05-b5bef1dbccb7"
     ],
     "filterType": "GMPath",
     "folderName": "Room1 Paths",

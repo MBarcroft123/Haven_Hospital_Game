@@ -186,15 +186,15 @@ if (room == room1)
 {
 	if(pathStepper == "doctor40") 
 	{
-		pathStepper = choose("path48","path41A");
+		pathStepper = choose("path48","doctor41");
 		if(pathStepper == "path48")
 		{
 			path_start(path134,2,path_action_stop,false);
 			exit;
 		}
-		if(pathStepper == "path41A")
+		if(pathStepper == "doctor41")
 		{
-			path_start(path132,2,path_action_stop,false);
+			path_start(path82,2,path_action_stop,false);
 			exit;
 		}
 	}
@@ -216,10 +216,91 @@ if (room == room1)
 	
 	if(pathStepper == "path48A") 
 	{
-		pathStepper = choose("path47A","path44B");
+		pathStepper = choose("path47A","doctor43")
 		if(pathStepper == "path47A")
 		{
 			path_start(path130,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor43")
+		{
+			path_start(path84,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor43")
+	{
+		pathStepper = choose("path44A","doctor44")
+		if(pathStepper == "path44A")
+		{
+			path_start(path125,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor44")
+		{
+			path_start(path85,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "path48B") 
+	{
+		pathStepper = "path47B";
+		path_start(path131,2,path_action_stop,false);
+		exit;
+	}
+	
+	if(pathStepper == "doctor41") 
+	{
+		pathStepper = "doctor42";
+		path_start(path83,2,path_action_stop,false);
+		exit;	
+	}
+	
+	if(pathStepper == "doctor42") 
+	{
+		pathStepper = "path40";
+		path_start(path119,2,path_action_stop,false);
+		exit;
+	}
+	
+	if(pathStepper == "path40") 
+	{
+		pathStepper = choose("path40A","path40B");
+		if(pathStepper == "path40A")
+		{
+			path_start(path121,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path40B")
+		{
+			path_start(path122,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "path40A") 
+	{
+		pathStepper = choose("path42","path43");
+		if(pathStepper == "path42")
+		{
+			path_start(path123,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path43")
+		{
+			path_start(path124,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "path40B") 
+	{
+		pathStepper = choose("path44A","path44B");
+		if(pathStepper == "path44A")
+		{
+			path_start(path125,2,path_action_stop,false);
 			exit;
 		}
 		if(pathStepper == "path44B")
@@ -229,246 +310,293 @@ if (room == room1)
 		}
 	}
 	
-	if(pathStepper == "path48B") 
+	if(pathStepper == "path43") 
 	{
-		pathStepper = choose("path47A","path47B");
-		if(pathStepper == "path47A")
+		pathStepper = choose("path43Z","doctor49");
+		if(pathStepper == "path43Z")
 		{
-			path_start(path130,2,path_action_stop,false);
+			path_start(path56,2,path_action_stop,false);
 			exit;
 		}
-		if(pathStepper == "path47B")
+		if(pathStepper == "doctor49")
 		{
-			path_start(path131,2,path_action_stop,false);
+			path_start(path90,2,path_action_stop,false);
 			exit;
 		}
 	}
 	
-	if(pathStepper == "path41A") 
+	if(pathStepper == "path43Z") 
 	{
-		pathStepper = "path41";
-		path_start(path120,2,path_action_stop,false);
-		exit;	
+		pathStepper = choose("path43Z1","path43Z2");
+		if(pathStepper == "path43Z1")
+		{
+			path_start(path57,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path43Z2")
+		{
+			path_start(path91,2,path_action_stop,false);
+			exit;
+		}
 	}
 	
-	if(pathStepper == "path41") 
-		pathStepper = "path40";
-		path_start(path119,2,path_action_stop,false);
+	if(pathStepper == "path43Z2") 
+	{
+		pathStepper = choose("path49Adoctor","doctor47");
+		if(pathStepper == "path49Adoctor")
+		{
+			path_start(path52,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor47")
+		{
+			path_start(path88,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor47") 
+	{
+		pathStepper = choose("path43","doctor50");
+		if(pathStepper == "path43")
+		{
+			path_start(path124,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor50")
+		{
+			path_start(path92,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "path49Adoctor") 
+	{
+		pathStepper = choose("doctor48","doctor49");
+		if(pathStepper == "doctor48")
+		{
+			path_start(path89,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor49")
+		{
+			path_start(path90,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "doctor50")
+	{
+		pathStepper = "doctor51";
+		path_start(path93,2,path_action_stop,false);
 		exit;
 	}
 	
-	//if(pathStepper == "path40") 
-	//{
-	//	pathStepper = choose("path40A","path40B");
-	//	if(pathStepper == "path40A")
-	//	{
-	//		path_start(path121,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path40B")
-	//	{
-	//		path_start(path122,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
 	
-	//if(pathStepper == "path40A") 
-	//{
-	//	pathStepper = choose("path42","path43");
-	//	if(pathStepper == "path42")
-	//	{
-	//		path_start(path123,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path43")
-	//	{
-	//		path_start(path124,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "doctor51") 
+	{
+		pathStepper = "path40B";
+		path_start(path122,2,path_action_stop,false);
+		exit;
+	}
 	
-	//if(pathStepper == "path40B") 
-	//{
-	//	pathStepper = choose("path44A","path44B");
-	//	if(pathStepper == "path44A")
-	//	{
-	//		path_start(path125,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path44B")
-	//	{
-	//		path_start(path126,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "doctor49") 
+	{
+		pathStepper = choose("doctor46","path45B");
+		if(pathStepper == "doctor46")
+		{
+			path_start(path87,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path45B")
+		{
+			path_start(path128,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
-	//if(pathStepper == "path43") 
-	//{
-	//	pathStepper = choose("path49A","path45A");
-	//	if(pathStepper == "path49A")
-	//	{
-	//		path_start(path52,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path45A")
-	//	{
-	//		path_start(path127,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "doctor48") 
+	{
+		pathStepper = choose("path42","doctor50");
+		if(pathStepper == "path42")
+		{
+			path_start(path123,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor50")
+		{
+			path_start(path92,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
-	//if(pathStepper == "path44B") 
-	//{
-	//	pathStepper = choose("path47A","path48A");
-	//	if(pathStepper == "path47A")
-	//	{
-	//		path_start(path130,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path48A")
-	//	{
-	//		path_start(path137,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "doctor46") 
+	{
+		pathStepper = choose("path44B","doctor44");
+		if(pathStepper == "path44B")
+		{
+			path_start(path126,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor44")
+		{
+			path_start(path85,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
-	//if(pathStepper == "path47A")
-	//{
-	//	pathStepper = "path44B";
-	//	path_start(path128,2,path_action_stop,false);
-	//	exit;
-	//}
-	
-	//if(pathStepper == "path47B")
-	//{
-	//	pathStepper = choose("path45B","path46");
-	//	if(pathStepper == "path45B")
-	//	{
-	//		path_start(path128,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path46")
-	//	{
-	//		path_start(path129,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
-	
-	//if(pathStepper == "path46")
-	//{
-	//	pathStepper = choose("path49A","path49B","path46Z");
-	//	if(pathStepper == "path49A")
-	//	{
-	//		path_start(path121,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path49B")
-	//	{
-	//		path_start(path122,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path46Z")
-	//	{
-	//		path_start(path55,2,path_action_stop,false);
-	//		exit;
-	//	}
+	if(pathStepper == "path44B") 
+	{
+		pathStepper = "path47A";
+		path_start(path130,2,path_action_stop,false);
+		exit;
+	}
 		
-	//}
+	if(pathStepper == "doctor44") 
+	{
+		pathStepper = choose("path41","path40");
+		if(pathStepper == "path41")
+		{
+			path_start(path120,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path40")
+		{
+			path_start(path119,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
-	//if(pathStepper == "path45B") 
-	//{
-	//	pathStepper = choose("path44A","path45A");
-	//	if(pathStepper == "path44A")
-	//	{
-	//		path_start(path125,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path45A")
-	//	{
-	//		path_start(path127,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "path41")
+	{
+		pathStepper = "path41A";
+		path_start(path132,2,path_action_stop,false);
+		exit;
+	}
 	
-	//if(pathStepper == "path44A")
-	//{
-	//	pathStepper = choose("path45A","path45B");
-	//	if(pathStepper == "path45A")
-	//	{
-	//		path_start(path127,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path45B")
-	//	{
-	//		path_start(path128,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "path41A")
+	{
+		pathStepper = "path48";
+		path_start(path134,2,path_action_stop,false);
+		exit;
+	}
 	
-	//if(pathStepper == "path45A") 
-	//{
-	//	pathStepper = choose("path43");
-	//	if(pathStepper == "path43")
-	//	{
-	//		path_start(path124,2,path_action_stop,false);
-	//		exit;
-	//	}
-		
-	//}
+	if(pathStepper == "path47A")
+	{
+		pathStepper = "path47B";
+		path_start(path131,2,path_action_stop,false);
+		exit;
+	}
 	
-	//if(pathStepper == "path42") 
-	//{
-	//	pathStepper = choose("path42","path49B");
-	//	if(pathStepper == "path42")
-	//	{
-	//		path_start(path123,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path49B")
-	//	{
-	//		path_start(path53,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "path47B")
+	{
+		pathStepper = choose("path46","doctor45");
+		if(pathStepper == "path46")
+		{
+			path_start(path129,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor45")
+		{
+			path_start(path86,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
-	//if(pathStepper == "path49A") 
-	//{
-	//	pathStepper = choose("path43Z","path43Z1");
-	//	if(pathStepper == "path43Z")
-	//	{
-	//		path_start(path56,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path43Z1")
-	//	{
-	//		path_start(path57,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "path46")
+	{
+		pathStepper = choose("path49Adoctor","path46Z", "path49B");
+		if(pathStepper == "path49Adoctor")
+		{
+			path_start(path52,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path46Z")
+		{
+			path_start(path55,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path49B")
+		{
+			path_start(path53,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
-	//if(pathStepper == "path49B") 
-	//{
-	//	pathStepper = choose("path42Z","path46");
-	//	if(pathStepper == "path42Z")
-	//	{
-	//		path_start(path54,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//	if(pathStepper == "path46")
-	//	{
-	//		path_start(path129,2,path_action_stop,false);
-	//		exit;
-	//	}
-	//}
+	if(pathStepper == "doctor45")
+	{
+		pathStepper = choose("path45A","doctor46");
+		if(pathStepper == "path45A")
+		{
+			path_start(path127,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor46")
+		{
+			path_start(path87,2,path_action_stop,false);
+			exit;
+		}
+	}
 	
-	//if(pathStepper == "path46Z")
-	//	{
-	//		path_start(path55,2,path_action_stop,false);
-	//		exit;
-	//	}
-
-
-
+	if(pathStepper == "path44A")
+	{
+		pathStepper = choose("path45A","path45B");
+		if(pathStepper == "path45A")
+		{
+			path_start(path127,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "path45B")
+		{
+			path_start(path128,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "path45B") 
+	{
+		pathStepper = "path46";
+		path_start(path129,2,path_action_stop,false);
+		exit;	
+	}
+	
+	if(pathStepper == "path45A") 
+	{
+		pathStepper = choose("path43Z","doctor48");
+		if(pathStepper == "path43Z")
+		{
+			path_start(path56,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor48")
+		{
+			path_start(path89,2,path_action_stop,false);
+			exit;
+		}
+	}
+	
+	if(pathStepper == "path42") 
+	{
+		pathStepper = "path42Z";
+		path_start(path54,2,path_action_stop,false);
+		exit;
+	}
+	
+	if(pathStepper == "path49B") 
+	{
+		pathStepper = choose("path42Z","doctor47");
+		if(pathStepper == "path42Z")
+		{
+			path_start(path54,2,path_action_stop,false);
+			exit;
+		}
+		if(pathStepper == "doctor47")
+		{
+			path_start(path88,2,path_action_stop,false);
+			exit;
+		}
+	}	
+}
 //
 //  room2 STARTS HERE
 //

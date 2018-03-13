@@ -82,5 +82,25 @@ if(place_meeting(x,y,object0)){
  }
 
 }
+else if (place_meeting(x,y,object_nurse))
+{
+	global.roomHealth -= 0.5;
+	isGettingHurt = true;
+ if(canPlaySound){
+	audio_play_sound(sound_JanetHurt,1,false);
+	canPlaySound = false;
+	alarm_set(0,30);
+ }	
+}
+else if (place_meeting(x,y,object_hunterDoc))
+{
+	global.roomHealth -= 1;
+	isGettingHurt = true;
+ if(canPlaySound){
+	audio_play_sound(sound_JanetHurt,1,false);
+	canPlaySound = false;
+	alarm_set(0,30);
+ }	
+}
 
 

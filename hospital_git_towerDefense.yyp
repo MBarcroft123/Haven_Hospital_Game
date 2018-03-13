@@ -1519,6 +1519,14 @@
             }
         },
         {
+            "Key": "d5c20b30-1165-4f62-a4fe-03ea33be1de4",
+            "Value": {
+                "id": "20437708-d73e-49d7-af35-23f5bb5d1bf4",
+                "resourcePath": "objects\\object_JanetDeath\\object_JanetDeath.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6584b73-b072-4440-adbd-81f774504da1",
             "Value": {
                 "id": "8621aea8-894b-4204-bac1-f406cce9c6c9",

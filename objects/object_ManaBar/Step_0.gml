@@ -1,10 +1,16 @@
 /// @description Handles roomHealth and manaRegen checks
 // You can write your code in this editor
 if(global.roomHealth <= 0){
-	object_Janet.sprite_index = sprite_JanetDeath
-	if( object_Janet.sprite_index == sprite_JanetDeath && sprite_JanetDeath.image_index == 33)
+	if(janetIsDead == false)
+	{	
+		object_Janet.speed = 0;
+		object_Janet.image_alpha = 0;
+		instance_create_depth(object_Janet.x, object_Janet.y, object_Janet.depth, Obj_JanetDeath)
+		janetIsDead = true;
+	}
+	if(Obj_JanetDeath.image_index == 33)
 	{
-		room_goto(room_youLoseJanetHealth)
+		room_goto(room_youLose)
 	}
 }
 

@@ -61,14 +61,13 @@ else {
 	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
 	{
 		//image_xscale = -0.4375;
-		sprite_index = sprite_JanetDeath;
-		image_index = 0;
+		sprite_index = sprite_JanetCrawlIdle;
 		playerSpeed = 0;	
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))
 	{
 		//image_xscale = -0.4375;
-		sprite_index = sprite_Janet;
+		sprite_index = sprite_JanetCrawlIdle;
 		playerSpeed = 0;
 	}
 }
@@ -82,18 +81,6 @@ if(place_meeting(x,y,object0)){
 	alarm_set(0,30);
  }
 
-}
-
-if(hp == 0){
-	sprite_index = sprite_JanetDeath;
-	image_index = 0;
-	playerSpeed = 0;
-	//if (sprite_index == sprite_JanetDeath && sprite_JanetDeath.image_index == 33)
-	//{
-		//room_goto(room_youLose);
-	//}
-	exit;
-	
 }
 
 

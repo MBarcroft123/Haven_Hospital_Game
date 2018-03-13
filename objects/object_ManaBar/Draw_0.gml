@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description UI display for roomHealth and mana
 // You can write your code in this editor
 val = global.mana/100;
 val2 = global.roomHealth/100;

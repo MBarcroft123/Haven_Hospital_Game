@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "0c8f05e8-011b-46a0-a669-48ae271f2a37",
-            "Value": {
-                "id": "aba1b0b5-fc9e-4044-95b8-96c02861f8ed",
-                "resourcePath": "sprites\\sprite6_patientNumberSaved\\sprite6_patientNumberSaved.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0caa79aa-7668-4024-9c3e-7c7586b1c4c5",
             "Value": {
                 "id": "7bedb4d0-9918-4f55-a9dc-7bd1c728b63d",
@@ -423,14 +415,6 @@
             }
         },
         {
-            "Key": "349bff49-617c-45ad-be56-6aab7446ff75",
-            "Value": {
-                "id": "6a9b52ec-1dcc-4f49-94a6-d51abb5be5b8",
-                "resourcePath": "rooms\\room_youLosePatientDeaths\\room_youLosePatientDeaths.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "34d336f4-5158-46c9-9075-265e4934382e",
             "Value": {
                 "id": "17e4bb5b-1584-426a-9866-18aed007c9ce",
@@ -476,14 +460,6 @@
                 "id": "032b75cf-ac34-4778-908a-014097939bd4",
                 "resourcePath": "paths\\pathC2\\pathC2.yy",
                 "resourceType": "GMPath"
-            }
-        },
-        {
-            "Key": "3cf63cc0-85e2-4031-92d3-22f7359a1f73",
-            "Value": {
-                "id": "cdbee0b4-166a-4184-8316-08556605b9d9",
-                "resourcePath": "sprites\\sprite_janetDied\\sprite_janetDied.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -775,6 +751,14 @@
             }
         },
         {
+            "Key": "61a79c5f-7474-46c9-80d2-c835e9cefb12",
+            "Value": {
+                "id": "2420bd0f-c018-4e40-bb81-6f70ff2d750f",
+                "resourcePath": "sprites\\sprite_patientNumberLeft\\sprite_patientNumberLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "632e5683-0c12-4a4a-9db8-4c7213379a4c",
             "Value": {
                 "id": "dc98ce11-a680-4a61-81aa-827856d799d6",
@@ -887,6 +871,14 @@
             }
         },
         {
+            "Key": "6dfee09a-9e97-4fff-a648-c055c0a7db9a",
+            "Value": {
+                "id": "30f2e675-baa6-4a3b-b4a9-94b87fb28939",
+                "resourcePath": "sprites\\sprite_JanetDeath\\sprite_JanetDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6e3148b4-1177-4638-9121-d46b8513fc16",
             "Value": {
                 "id": "d7148208-2e2d-49cb-a84d-5552d4ffdb28",
@@ -991,14 +983,6 @@
             }
         },
         {
-            "Key": "7a5b27bb-2f53-478c-a9eb-6961255fff7f",
-            "Value": {
-                "id": "127ed004-7cff-40f1-9212-14fd6b70fefd",
-                "resourcePath": "objects\\object_UIpatientIcon\\object_UIpatientIcon.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7bd51f63-46a8-418f-bd8f-b4fbd3bdcc76",
             "Value": {
                 "id": "6a419160-d07c-4cac-a8e5-acb0d2ee5482",
@@ -1020,14 +1004,6 @@
                 "id": "8a3d9b1b-70d3-45ca-859b-df7d035adb59",
                 "resourcePath": "objects\\object_Instructions2\\object_Instructions2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "80ed4182-be0d-4df8-97f7-562fa98816da",
-            "Value": {
-                "id": "2415712f-25c2-4736-bc40-3201275364e0",
-                "resourcePath": "sprites\\sprite_tooManyPatientsDied\\sprite_tooManyPatientsDied.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1175,14 +1151,6 @@
             }
         },
         {
-            "Key": "9b4705ad-b94f-4fb3-aea7-24a416681253",
-            "Value": {
-                "id": "39af32e3-b8fa-4271-82d6-35945bacaa45",
-                "resourcePath": "scripts\\script0\\script0.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "9cc53b50-7215-401b-9462-7b68e2c4bd1a",
             "Value": {
                 "id": "a3c6a04f-99ed-489d-be4d-11d363e089a2",
@@ -1244,14 +1212,6 @@
                 "id": "5eab6b6c-f919-4a68-9166-b2144d5117b3",
                 "resourcePath": "views\\a128d6f4-3f4c-4464-aa39-c7cf49acaadf.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a1ffa728-dd64-4cc3-a6f5-f27b752a5284",
-            "Value": {
-                "id": "ba9bec57-c5f8-4bd3-875b-54ef764e965b",
-                "resourcePath": "objects\\object_tooManyPatientsDied\\object_tooManyPatientsDied.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1439,14 +1399,6 @@
             }
         },
         {
-            "Key": "bbafed03-3617-45b4-b672-3aa966bc69b3",
-            "Value": {
-                "id": "c790fac6-429b-43ab-afcf-18f4bfea78e7",
-                "resourcePath": "objects\\object_janetDied\\object_janetDied.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bc9098e2-8da1-4d47-b60f-041984dfa359",
             "Value": {
                 "id": "0bc4d680-62cb-4b52-8d31-302100f18474",
@@ -1570,7 +1522,7 @@
             "Key": "d6584b73-b072-4440-adbd-81f774504da1",
             "Value": {
                 "id": "8621aea8-894b-4204-bac1-f406cce9c6c9",
-                "resourcePath": "rooms\\room_youLoseJanetHealth\\room_youLoseJanetHealth.yy",
+                "resourcePath": "rooms\\room_youLose\\room_youLose.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1872,7 +1824,6 @@
         }
     ],
     "script_order": [
-        "9b4705ad-b94f-4fb3-aea7-24a416681253",
         "c9a18163-dbcd-4672-adde-5271f7eaed2c",
         "159dcad5-1a0c-40ba-b7bd-855682ae9755"
     ],

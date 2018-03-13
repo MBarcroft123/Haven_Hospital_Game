@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Janet's walking and crawling checks
 // You can write your code in this editor
 if(keyboard_check(ord("A")) ||keyboard_check(ord("S")) || keyboard_check(ord("D")) || keyboard_check(ord("W"))){
 	isWalking = true;
@@ -10,6 +10,7 @@ if(isWalking == false){
 	sprite_index = sprite_Janet;
 	if(place_free(x, y)!=true){
 		isLayingDown = true;
+//	show_debug_message("coolio");
 	}
 else{
 	isLayingDown = false;	
@@ -60,7 +61,8 @@ else {
 	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
 	{
 		//image_xscale = -0.4375;
-		sprite_index = sprite_Janet;
+		sprite_index = sprite_JanetDeath;
+		image_index = 0;
 		playerSpeed = 0;	
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))
@@ -81,8 +83,17 @@ if(place_meeting(x,y,object0)){
  }
 
 }
+
 if(hp == 0){
-room_goto(room_youLoseJanetHealth);	
+	sprite_index = sprite_JanetDeath;
+	image_index = 0;
+	playerSpeed = 0;
+	//if (sprite_index == sprite_JanetDeath && sprite_JanetDeath.image_index == 33)
+	//{
+		//room_goto(room_youLose);
+	//}
+	exit;
+	
 }
 
 

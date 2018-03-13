@@ -83,16 +83,4 @@ if(place_meeting(x,y,object0)){
 
 }
 
-if(hp == 0){
-	sprite_index = sprite_JanetDeath;
-	image_index = 0;
-	playerSpeed = 0;
-	//if (sprite_index == sprite_JanetDeath && sprite_JanetDeath.image_index == 33)
-	//{
-		//room_goto(room_youLose);
-	//}
-	exit;
-	
-}
-
 

@@ -31,7 +31,7 @@ if(place_free(x, y)){
 	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
 	{
 		//image_xscale = -0.4375; Extra line messing around with image scaling;
-		sprite_index = sprite_Janet;
+		sprite_index = sprite_JanetDeath;
 		playerSpeed = 0;	
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))
@@ -82,8 +82,15 @@ if(place_meeting(x,y,object0)){
  }
 
 }
+
 if(hp == 0){
-room_goto(room_youLose);	
+	sprite_index = sprite_JanetDeath;
+	playerSpeed = 0;
+	if (sprite_index == sprite_JanetDeath.image_index(34))
+	{
+		room_goto(room_youLose);
+	}
+	
 }
 
 

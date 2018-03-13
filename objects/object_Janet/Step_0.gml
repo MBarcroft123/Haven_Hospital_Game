@@ -31,7 +31,7 @@ if(place_free(x, y)){
 	if(keyboard_check(ord("A")) && keyboard_check(ord("D")))
 	{
 		//image_xscale = -0.4375; Extra line messing around with image scaling;
-		sprite_index = sprite_JanetDeath;
+		sprite_index = sprite_Janet;
 		playerSpeed = 0;	
 	}
 	else if(keyboard_check(ord("W")) && keyboard_check(ord("S")))

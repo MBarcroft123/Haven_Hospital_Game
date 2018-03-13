@@ -71,9 +71,10 @@ else {
 		playerSpeed = 0;
 	}
 }
-
+isGettingHurt = false;
 if(place_meeting(x,y,object0)){
- global.roomHealth -= 1;	
+ global.roomHealth -= 1;
+	isGettingHurt = true;
  if(canPlaySound){
 	audio_play_sound(sound_JanetHurt,1,false);
 	canPlaySound = false;

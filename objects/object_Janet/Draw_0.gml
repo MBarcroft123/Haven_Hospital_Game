@@ -2,4 +2,8 @@
 // You can write your code in this editor
 draw_self();
 
-draw_healthbar(x-30,y-100,x+30,y-90,hp,c_black,c_red,c_green,0,true,false);
+if (isGettingHurt){
+	image_blend = make_colour_hsv(255, 255, 255);	
+} else {
+	image_blend = make_colour_hsv(0, 0, 255);	
+}

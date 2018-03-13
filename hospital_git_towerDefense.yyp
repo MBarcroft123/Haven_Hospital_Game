@@ -1522,7 +1522,7 @@
             "Key": "d5c20b30-1165-4f62-a4fe-03ea33be1de4",
             "Value": {
                 "id": "20437708-d73e-49d7-af35-23f5bb5d1bf4",
-                "resourcePath": "objects\\Obj_JanetDeath\\Obj_JanetDeath.yy",
+                "resourcePath": "objects\\object_JanetDeath\\object_JanetDeath.yy",
                 "resourceType": "GMObject"
             }
         },

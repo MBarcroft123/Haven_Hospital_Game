@@ -1623,6 +1623,14 @@
             }
         },
         {
+            "Key": "ae09c693-9cee-498a-b342-db2e436e1f7d",
+            "Value": {
+                "id": "6b51b2b3-d068-44e1-bcaa-fe099cb4c215",
+                "resourcePath": "sprites\\sprite_doctorAttack\\sprite_doctorAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae384559-4bdf-4351-960b-485a3bcadedb",
             "Value": {
                 "id": "d90f329a-fc32-48ae-88ca-51dcde210c1a",

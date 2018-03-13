@@ -5,7 +5,7 @@ if(global.roomHealth <= 0){
 	{	
 		object_Janet.speed = 0;
 		object_Janet.image_alpha = 0;
-		instance_create_depth(object_Janet.x, object_Janet.y, object_Janet.depth, Obj_JanetDeath)
+		instance_create_depth(object_Janet.x, object_Janet.y, object_Janet.depth, object_JanetDeath)
 		janetIsDead = true;
 	}
 	if(Obj_JanetDeath.image_index == 33)

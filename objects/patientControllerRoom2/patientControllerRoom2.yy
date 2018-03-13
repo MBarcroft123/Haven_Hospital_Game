@@ -1,38 +1,38 @@
 {
-    "id": "bdc5c0bf-4c8c-441c-bf2d-497d1a9d651f",
+    "id": "19100a0d-063d-4acc-8f8c-d9de5fd05386",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "patientController",
+    "name": "patientControllerRoom2",
     "eventList": [
         {
-            "id": "cf40f83b-cbab-44f2-b4c0-d2f7789cfc9c",
+            "id": "1a89dfe2-9b31-40fc-830d-c205a588121c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "bdc5c0bf-4c8c-441c-bf2d-497d1a9d651f"
+            "m_owner": "19100a0d-063d-4acc-8f8c-d9de5fd05386"
         },
         {
-            "id": "0bf8c205-3595-4dad-8e1f-aaf8dabbbe40",
+            "id": "135b51a5-fc42-42c5-89da-341525432bd8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "bdc5c0bf-4c8c-441c-bf2d-497d1a9d651f"
+            "m_owner": "19100a0d-063d-4acc-8f8c-d9de5fd05386"
         },
         {
-            "id": "0dd556fe-9940-4dc0-a8b7-fb080fb4e2cd",
+            "id": "ff4e4458-1393-4f71-bfb5-7e64f4680b26",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 53,
             "eventtype": 6,
-            "m_owner": "bdc5c0bf-4c8c-441c-bf2d-497d1a9d651f"
+            "m_owner": "19100a0d-063d-4acc-8f8c-d9de5fd05386"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

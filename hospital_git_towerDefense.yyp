@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "6dfee09a-9e97-4fff-a648-c055c0a7db9a",
+            "Value": {
+                "id": "3071722c-ca1c-4ce2-a280-b806707dffe8",
+                "resourcePath": "sprites\\sprite_JanetDeath\\sprite_JanetDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6e3148b4-1177-4638-9121-d46b8513fc16",
             "Value": {
                 "id": "d7148208-2e2d-49cb-a84d-5552d4ffdb28",
@@ -1147,6 +1155,14 @@
             "Value": {
                 "id": "093bc38e-d967-40d1-82d7-1951895a745d",
                 "resourcePath": "sprites\\sprite_tower2\\sprite_tower2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71d52c0b-c51a-4004-9921-aab4a836110b",
+            "Value": {
+                "id": "ff1b906a-97a4-4d44-8ec5-da3372ccfc5f",
+                "resourcePath": "sprites\\sprite_patient0\\sprite_patient0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1203,6 +1219,14 @@
             "Value": {
                 "id": "d9c798e8-e31d-4445-a5af-ac7e1780e087",
                 "resourcePath": "sprites\\sprite_Floor2\\sprite_Floor2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "78eacce3-2de2-455f-a9d0-aee71821d996",
+            "Value": {
+                "id": "f985a3d3-6d43-44c7-b95b-d37e061b8780",
+                "resourcePath": "sprites\\sprite_doctorWalk\\sprite_doctorWalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1820,6 +1844,14 @@
                 "id": "7a65781a-9ca7-4a6b-b335-fa2f1f25d934",
                 "resourcePath": "paths\\pathM3\\pathM3.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "c0591b64-6b2a-4d42-99a0-d60729014811",
+            "Value": {
+                "id": "7ba7d623-73d9-47f0-8a51-a34ab5231433",
+                "resourcePath": "sprites\\sprite_hearts\\sprite_hearts.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

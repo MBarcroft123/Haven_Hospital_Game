@@ -5,6 +5,6 @@ alarm_set(0, 100);
 if(global.patientSpawnCounter < spawnCap){
 instance_create_layer(x + 0, y + 0, "Instances", follow_nodePatient);
 }
-if(global.patientSpawnCounter >= spawnCap && instance_number(object_patient) == 0){
+if(global.patientSpawnCounter == spawnCap && instance_number(object_patient) == 0 && global.patientsSaved >= (spawnCap/4)*3){
 	room_goto(room_youWin);
 }

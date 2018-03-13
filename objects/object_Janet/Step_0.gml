@@ -10,7 +10,6 @@ if(isWalking == false){
 	sprite_index = sprite_Janet;
 	if(place_free(x, y)!=true){
 		isLayingDown = true;
-//	show_debug_message("coolio");
 	}
 else{
 	isLayingDown = false;	
@@ -83,7 +82,7 @@ if(place_meeting(x,y,object0)){
 
 }
 if(hp == 0){
-room_goto(room_youLose);	
+room_goto(room_youLoseJanetHealth);	
 }
 
 
